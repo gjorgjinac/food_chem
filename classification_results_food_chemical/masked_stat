@@ -1,0 +1,75 @@
+"C:\Users\Gjorgjina Cenikj\PycharmProjects\food_drug_relations\venv\Scripts\python.exe" "C:/Users/Gjorgjina Cenikj/PycharmProjects/food_drug_relations/aggregate_results_food_chemical.py"
+bert
+metric       dataset           
+0-F1 score   augmented             0.787636
+             augmented balanced    0.792574
+             non-augmented         0.774710
+0-precision  augmented             0.759959
+             augmented balanced    0.880151
+             non-augmented         0.878471
+0-recall     augmented             0.843520
+             augmented balanced    0.752646
+             non-augmented         0.708776
+1-F1 score   augmented             0.871121
+             augmented balanced    0.908166
+             non-augmented         0.903552
+1-precision  augmented             0.917059
+             augmented balanced    0.888635
+             non-augmented         0.870195
+1-recall     augmented             0.844516
+             augmented balanced    0.934914
+             non-augmented         0.943231
+macro F1     augmented             0.829378
+             augmented balanced    0.850370
+             non-augmented         0.839131
+Name: value, dtype: float64
+roberta
+metric       dataset           
+0-F1 score   augmented             0.825017
+             augmented balanced    0.803700
+             non-augmented         0.723077
+0-precision  augmented             0.774864
+             augmented balanced    0.828197
+             non-augmented         0.891104
+0-recall     augmented             0.893030
+             augmented balanced    0.802296
+             non-augmented         0.633019
+1-F1 score   augmented             0.897603
+             augmented balanced    0.904072
+             non-augmented         0.894559
+1-precision  augmented             0.944208
+             augmented balanced    0.903799
+             non-augmented         0.845285
+1-recall     augmented             0.860089
+             augmented balanced    0.909750
+             non-augmented         0.956220
+macro F1     augmented             0.861310
+             augmented balanced    0.853886
+             non-augmented         0.808818
+Name: value, dtype: float64
+biobert
+metric       dataset           
+0-F1 score   augmented             0.871646
+             augmented balanced    0.846151
+             non-augmented         0.801551
+0-precision  augmented             0.855798
+             augmented balanced    0.878929
+             non-augmented         0.903131
+0-recall     augmented             0.895455
+             augmented balanced    0.825105
+             non-augmented         0.734149
+1-F1 score   augmented             0.933636
+             augmented balanced    0.926505
+             non-augmented         0.916854
+1-precision  augmented             0.947633
+             augmented balanced    0.916372
+             non-augmented         0.879182
+1-recall     augmented             0.922233
+             augmented balanced    0.939427
+             non-augmented         0.961034
+macro F1     augmented             0.902641
+             augmented balanced    0.886328
+             non-augmented         0.859202
+Name: value, dtype: float64
+
+Process finished with exit code 0

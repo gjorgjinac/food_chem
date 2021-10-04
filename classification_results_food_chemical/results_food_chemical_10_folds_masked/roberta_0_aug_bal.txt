@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\caption{Results}
+\label{tab:results}
+\begin{tabular}{lrrrrr}
+\toprule
+{} &          0 &          1 &  accuracy &  macro avg &  weighted avg \\
+\midrule
+precision &   0.692308 &   0.909091 &  0.828571 &   0.800699 &      0.840959 \\
+recall    &   0.818182 &   0.833333 &  0.828571 &   0.825758 &      0.828571 \\
+f1-score  &   0.750000 &   0.869565 &  0.828571 &   0.809783 &      0.831988 \\
+support   &  11.000000 &  24.000000 &  0.828571 &  35.000000 &     35.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
